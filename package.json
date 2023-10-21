@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.7.0",
+    "nuxt-primevue": "^0.0.3"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@types/node": "^20.8.4",
+    "joi": "^17.11.0",
+    "mongoose": "^7.6.1",
+    "pinia": "^2.1.6",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.36.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
